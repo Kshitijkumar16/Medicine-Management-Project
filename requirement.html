@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MEDOLX</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/availmedstyle.css">
+</head>
+
+
+
+<body>
+
+    <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="top-bar-left">
+                        <div class="text">
+                            <i class="fa fa-phone-alt"></i>
+                            <p>+91 000000000</p>
+                        </div>
+                        <div class="text">
+                            <i class="fa fa-envelope"></i>
+                            <p>medolx@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top-bar-right">
+                        <div class="social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- navbar navbar-expand-lg bg-dark navbar-dark nav-sticky -->
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container-fluid">
+            <a href="user_dashboard.html" class="navbar-brand">Medolx</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="user_dashboard.html" class="nav-item nav-link ">Home</a>
+                    <a href="donation.html" class="nav-item nav-link">Donate Now</a>
+                    <a href="requirement.html" class="nav-item nav-link active">Requirements</a>
+                    <a href="index.html" class="nav-item nav-link">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Nav Bar End -->
+
+    <!-- Page Header Start -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>REQUIRED MEDICINES</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Table starts -->
+
+
+
+
+
+    <!-- DUMMY 1 -->
+    <center>
+        <input style="width: 1200px" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for city..">
+        <input style="width: 1200px" type="text" id="myInput1" onkeyup="myFunction1()"
+            placeholder="Search for medicine..">
+
+        <table id="myTable" style="width: 1200px">
+            <tr class="header">
+                <!-- <th style="width:40%;">Country</th> -->
+                <!-- <th>Sr No</th> -->
+                <th>City</th>
+                <th>Required by</th>
+                <th>Medicine name</th>
+                <th>Quantity</th>
+                <th>Donate</th>
+            </tr>
+            <tbody id="tbody2"></tbody>
+        </table>
+    </center>
+
+
+    <!-- /////////////////////// -->
+    <!-- ORIGINAL -->
+    <!-- <center>
+    <table class="table table-striped" style="width: 1200px;">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Required by</th>
+                <th>Medicine name</th>
+                <th>Quantity</th>
+                <th>Donate</th>
+            </tr>
+        </thead>
+        <tbody id="tbody2">
+      </table>
+</center> -->
+    <!-- ///////////////// -->
+
+    <!-- Table Ends -->
+
+    <!-- <center>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Sr No</th>
+                    <th>Required by</th>
+                    <th>Medicine name</th>
+                    <th>Quantity</th>
+                    <th>Donate</th>
+                </tr>
+            </thead>
+            <tbody id="tbody2"></tbody>
+        </table>
+    </center> -->
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h2>Our Head Office</h2>
+                        <p><i class="fa fa-map-marker-alt"></i>GOVERNMENT COLLEGE OF ENGINEERING NAGPUR</p>
+                        <p><i class="fa fa-envelope"></i>medolex@gmail.com</p>
+                        <div class="footer-social">
+                            <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-custom" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-custom" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Popular Links</h2>
+                        <a href="">About Us</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; <a href="#">MEDOLX</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+</body>
+
+
+<script>
+
+    function myFunction() {
+        // Declare variables
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+        console.log(tr)
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+    function myFunction1() {
+        // Declare variables
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput1");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+        console.log(tr)
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[2];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+</script>
+<script>
+
+    // function myFunction1() {
+    //     // Declare variables
+    //     var input, filter, table, tr, td, i, txtValue;
+    //     input = document.getElementById("myInput1");
+    //     filter = input.value.toUpperCase();
+    //     table = document.getElementById("myTable");
+    //     tr = table.getElementsByTagName("tr");
+    //     console.log(tr)
+    //     // Loop through all table rows, and hide those who don't match the search query
+    //     for (i = 0; i < tr.length; i++) {
+    //         td = tr[i].getElementsByTagName("td")[2];
+    //         if (td) {
+    //             txtValue = td.textContent || td.innerText;
+    //             if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    //                 tr[i].style.display = "";
+    //             } else {
+    //                 tr[i].style.display = "none";
+    //             }
+    //         }
+    //     }
+    // }
+</script>
+
+
+<script type="module">
+
+
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-analytics.js";
+    import { getFirestore, collection, doc, getDocs, addDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyDem1iRgyTvkPjkTqa_nkI5aBD7-U0ww84",
+        authDomain: "medolex-3f00b.firebaseapp.com",
+        databaseURL: "https://medolex-3f00b-default-rtdb.firebaseio.com",
+        projectId: "medolex-3f00b",
+        storageBucket: "medolex-3f00b.appspot.com",
+        messagingSenderId: "942790834785",
+        appId: "1:942790834785:web:ccae7fd15eb3de59138820",
+        measurementId: "G-SX8BXN2SP1"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const db = getFirestore(app);
+    var entryNo = 0;
+    var tbody = document.getElementById('tbody2');
+    console.log("aaaa", tbody)
+    var entries = [];
+
+    function CreateTableElement(name, medName, qty, ngoId, reqId) {
+        let trow = document.createElement("tr");
+        let td1 = document.createElement('td');
+        let td2 = document.createElement('td');
+        let td3 = document.createElement('td');
+        let td4 = document.createElement('td');
+        let td5 = document.createElement('td');
+
+        td1.innerHTML = ++entryNo;
+        td2.innerHTML = name;
+        td3.innerHTML = medName;
+        td4.innerHTML = qty;
+        td5.innerHTML = `<button  class='btn-outline-primary' data-id1=${ngoId} data-id2=${reqId} data-name1=${name} data-qty=${qty} data-name2=${medName}>DONATE</button>`;
+        // <button type="button" class="btn btn-outline-primary">Primary</button>
+        trow.appendChild(td1);
+        trow.appendChild(td2);
+        trow.appendChild(td3);
+        trow.appendChild(td4);
+        trow.appendChild(td5);
+
+        tbody.appendChild(trow);
+
+    }
+
+    function AddAllToTable() {
+        entryNo = 0;
+        tbody.innerHTML = "";
+        entries.forEach(element => {
+            CreateTableElement(element.name, element.medName, element.quantity, element.ngoId, element.reqId);
+        });
+    }
+
+    async function getData() {
+        const docRef = await collection(db, "users");
+        onSnapshot(docRef, (snapshot) => {
+            snapshot.forEach((document) => {
+                var name = document.data()['name'];
+                if (document.data()['type'] == "NGO") {
+                    const docRef2 = collection(db, "users", document.id, "requirments");
+                    onSnapshot(docRef2, (snap) => {
+                        snap.forEach((doc) => {
+                            if (doc.data()["quantity"] > 0) {
+                                var data = doc.data();
+                                data["ngoId"] = document.id;
+                                data["reqId"] = doc.id;
+                                data["name"] = name;
+                                entries.push(data);
+                            }
+                        });
+                    });
+                }
+            });
+        });
+    }
+
+    function CreateTable() {
+        let a = '.btn-outline-primary'
+        getData();
+        setTimeout(() => { AddAllToTable() }, 3000);
+        setTimeout(() => {
+            document.querySelectorAll(a).forEach(btn => {
+                btn.addEventListener('click', () => {
+                    sessionStorage.setItem("ngoId", btn.dataset.id1);
+                    sessionStorage.setItem("reqId", btn.dataset.id2);
+                    sessionStorage.setItem("qty", btn.dataset.qty);
+                    sessionStorage.setItem("ngoName", btn.dataset.name1);
+                    sessionStorage.setItem("medName", btn.dataset.name2);
+                    window.location.replace("donation.html");
+                })
+            })
+        }, 3000);
+    }
+
+    window.onload = CreateTable();
+
+</script>
+
+</html>
